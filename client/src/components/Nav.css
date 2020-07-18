@@ -1,0 +1,18 @@
+@import "~antd/dist/antd.css";
+.title{
+  margin:0;
+  float: left;
+  color:white;
+  width:300px;
+  height: 100%;
+}
+.menu {
+  float: right;
+  width: 232px;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    width: 50px;
+  }
+}
