@@ -1,10 +1,8 @@
 import React from "react";
-import { Typography } from 'antd';
 import { Layout, Menu } from "antd";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-const { Title } = Typography;
 const { Header } = Layout;
 
 export default function Nav({ defaultKey }) {
