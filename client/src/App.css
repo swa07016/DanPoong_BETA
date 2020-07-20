@@ -1,1 +1,9 @@
 @import '~antd/dist/antd.css';
+
+.layout{
+    height: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }

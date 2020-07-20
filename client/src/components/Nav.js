@@ -16,7 +16,7 @@ export default function Nav({ defaultKey }) {
         defaultSelectedKeys={[defaultKey.toString()]}
       >
         <Menu.Item key="1">
-          <Link to="/calender">캘린더</Link>
+          <Link to="/calendar">캘린더</Link>
         </Menu.Item>
         <Menu.Item key="2">
           <Link to="/schedule">일정</Link>
